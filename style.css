@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "DS-Font";
+    src: url("DS-DIGIB.TTF");
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    font-family: "DS-Font";
+    background-image: url("clock.webp");
+    background-size: contain;
+    display: grid;
+    width: 705px;
+    height: 431px;
+    grid-template-columns: 25px 90px 55px 58px 50px 110px 45px 26px 45px 65px 50px 60px 1fr;
+    grid-template-rows: 45px 45px 60px 42px 45px 64px 46px 45px 10px 1fr;
+}
+
+.clock p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.clock img {
+    object-fit: cover;
+    position: relative;
+    top: 0px;
+}
+
+p.present {
+    color: rgb(62, 156, 24);
+}
+
+.pMonth {
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+.pDay {
+    grid-column-start: 4;
+    grid-row-start: 5;
+}
+
+.pYear {
+    grid-column-start: 6;
+    grid-row-start: 5;
+}
+
+.pAm {
+    grid-column-start: 8;
+    grid-row-start: 4;
+}
+
+.pPm {
+    grid-column-start: 8;
+    grid-row-start: 5;
+}
+
+.pHour {
+    grid-column-start: 10;
+    grid-row-start: 5;
+}
+
+.pMin {
+    grid-column-start: 12;
+    grid-row-start: 5;
+}
+
+p.destination {
+    color: rgb(236, 71, 5);
+}
+
+.dMonth {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.dDay {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.dYear {
+    grid-column-start: 6;
+    grid-row-start: 2;
+}
+
+.dAm {
+    grid-column-start: 8;
+    grid-row-start: 1;
+
+}
+
+.dPm {
+    grid-column-start: 8;
+    grid-row-start: 2;
+}
+
+.dHour {
+    grid-column-start: 10;
+    grid-row-start: 2;
+}
+
+.dMin {
+    grid-column-start: 12;
+    grid-row-start: 2;
+}
+
+p.difference {
+    color: rgb(241, 228, 43);
+}
+
+.diMonth {
+    grid-column-start: 2;
+    grid-row-start: 8;
+}
+
+.diDay {
+    grid-column-start: 4;
+    grid-row-start: 8;
+}
+
+.diYear {
+    grid-column-start: 6;
+    grid-row-start: 8;
+}
+
+.diHour {
+    grid-column-start: 10;
+    grid-row-start: 8;
+}
+
+.diMin {
+    grid-column-start: 12;
+    grid-row-start: 8;
+}
+
+object {
+    width: 3rem;
+}
